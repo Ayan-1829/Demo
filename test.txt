@@ -2,3 +2,16 @@ This is for test.
 
 Everything is ok
 
+pwd --> present work directory
+cd --> change directory
+ls --> list of files containing in present directory
+
+git status -> to check the status.
+git intit -> to initialize a git repository.
+rm -rf .git -> to delete the git repository.
+
+git add --a / git add -A -> to add all tasks to a status.
+git add test.txt -> to add a single tast to a status.
+git commit -m "messenge" -> to commit a task with title
+git clone https//link_something.kisuakta -> cloning a repo
+
