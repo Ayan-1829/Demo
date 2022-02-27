@@ -16,6 +16,7 @@ git commit -m "messenge" 	-> to commit a task with title
 git clone https//link_something.kisuakta -> cloning a repo
 git diff				-> compare the files at staged area and modified files
 git diff --staged			=> compared with the previously commited area to present staged area
+git rm test.bmp			=> to delete the file named test.bmp
 
 touch ayan.txt 	-> to create a file named ayan and type .txt
 touch .gitignore 	-> we can keep files which we don't want to track.  we need to write the names with extension should be writen in the .gitignore file
