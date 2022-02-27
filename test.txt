@@ -16,4 +16,6 @@ git add test.txt -> to add a single tast to a status.
 git commit -m "messenge" -> to commit a task with title
 git clone https//link_something.kisuakta -> cloning a repo
 
+touch .gitignore -> we can keep files which we don't want to track.  we need to write the names with extension should be writen in the .gitignore file
+				*.something will ignore all the .something file in the directory
 
