@@ -1,6 +1,4 @@
-This is for test.
 
-Everything is ok
 
 pwd 	--> present work directory
 cd 	--> change directory
@@ -13,12 +11,20 @@ git intit 	-> to initialize a git repository.
 git add --a / git add -A 	-> to add all tasks to a status.
 git add test.txt 			-> to add a single tast to a status.
 git commit -m "messenge" 	-> to commit a task with title
-git clone https//link_something.kisuakta -> cloning a repo
+git clone https//link_something.kisuakta my_git  	-> cloning a repo with named my_git
 git diff				-> compare the files at staged area and modified files
 git diff --staged			=> compared with the previously commited area to present staged area
+git log				-> list of commits 
+git log --stat			-> short description of commits
+git log --pretty=short		-> short description
+git log --pretty=ont		-> one line
+git log --since=2.days		=> commits of last 2 days
+git log -p				-> list of commits with given changes
+git log -p -2			-> list of last 2 commits
+git mv test.txt info.txt	-> to rename a file
 git rm test.bmp			=> to delete the file named test.bmp
 git rm --cached lafra.txt	-> stops tracking(actually removes from .git but doesn't delete from the directory.
-git mv test.txt info.txt	-> to rename a file
+
 
 touch ayan.txt 	-> to create a file named ayan and type .txt
 touch .gitignore 	-> we can keep files which we don't want to track.  we need to write the names with extension should be writen in the .gitignore file
