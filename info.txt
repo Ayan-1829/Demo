@@ -11,8 +11,11 @@ git intit 	-> to initialize a git repository.
 git add --a / git add -A 	-> to add all tasks to a status.
 git add test.txt 			-> to add a single tast to a status.
 git commit -m "messenge" 	-> to commit a task with title
+git checkout -f			-> to match all files of the modified stage with the last commit
+git checkout -- info.txt	-> to match with last commit of the (modified) file
+
 git clone https//link_something.kisuakta my_git  	-> cloning a repo with named my_git
-git diff				-> compare the files at staged area and modified files
+git diff				-> compare the files at staged area and (modified) files
 git diff --staged			=> compared with the previously commited area to present staged area
 git log				-> list of commits 
 git log --stat			-> short description of commits
@@ -22,7 +25,7 @@ git log --since=2.days		=> commits of last 2 days
 git log -p				-> list of commits with given changes
 git log -p -2			-> list of last 2 commits
 git mv test.txt info.txt	-> to rename a file
-git restore test.txt		-> to undo the changes
+
 git restore --staged test.txt	-> to unstage a staged file
 git restor --staged .		-> to unstage all files
 git rm test.bmp			=> to delete the file named test.bmp
