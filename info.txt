@@ -11,6 +11,9 @@ git intit 	-> to initialize a git repository.
 git add --a / git add -A 	-> to add all tasks to a status.
 git add test.txt 			-> to add a single tast to a status.
 git commit -m "messenge" 	-> to commit a task with title
+
+git config --global alias.unstage 'restore --staged --'	-> to make a shortcut named unstage which will work as restore --staged --
+
 git checkout -f			-> to match all files of the modified stage with the last commit
 git checkout -- info.txt	-> to match with last commit of the (modified) file
 

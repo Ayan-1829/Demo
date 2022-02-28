@@ -1,1 +1,4 @@
 git remote add origin https://github.com/Ayan-1829/Demo.git		-> to add to a remote server
+git remote 				-> the name origin will be shown
+git remote -v			-> link for fetch and push is shown
+git push -u origin master	-> pushing the files is done
