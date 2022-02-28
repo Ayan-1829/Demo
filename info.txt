@@ -10,7 +10,10 @@ git intit 	-> to initialize a git repository.
 
 git branch			->list of branch
 git branch -v		-> shows small details of the branch
-git branch -d name	-> to delete an already merged branch named name
+git branch -d name	-> to delete an already merged branch named name(if not merged then error will be shown)
+git branch -D name	-> name will be deleted without warning and will not check if merged or not
+git branch --merged	-> to check the merged branches
+git branch --no-marged	-> checks the non merged branch
 git checkout -b name	->to create a new branch named name
 git checkout brach_name	-> will take to the branch named branch_name
 
