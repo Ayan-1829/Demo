@@ -8,13 +8,17 @@ rm -rf .git -> to delete the git repository.
 git status 	-> to check the status.
 git intit 	-> to initialize a git repository.
 
+git branch			->list of branch
+git checkout -b name	->to create a new branch named name
+git checkout brach_name	-> will take to the branch named branch_name
+
+git checkout -f			-> to match all files of the modified stage with the last commit
+git checkout -- info.txt	-> to match with last commit of the (modified) file
+
 git add --a / git add -A 	-> to add all tasks to a status.
 git add test.txt 			-> to add a single tast to a status.
 git commit -m "messenge" 	-> to commit a task with title
 git commit -a -m "add & commit"	-> to add and commit together
-
-git checkout -f			-> to match all files of the modified stage with the last commit
-git checkout -- info.txt	-> to match with last commit of the (modified) file
 
 git clone https//link_something.kisuakta my_git  	-> cloning a repo with named my_git
 git diff				-> compare the files at staged area and (modified) files
