@@ -9,6 +9,8 @@ git status 	-> to check the status.
 git intit 	-> to initialize a git repository.
 
 git branch			->list of branch
+git branch -v		-> shows small details of the branch
+git branch -d name	-> to delete an already merged branch named name
 git checkout -b name	->to create a new branch named name
 git checkout brach_name	-> will take to the branch named branch_name
 
