@@ -1,0 +1,1 @@
+git remote add origin https://github.com/Ayan-1829/Demo.git		-> to add to a remote server
